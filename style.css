@@ -139,7 +139,7 @@
 .circle{
 	border: 1px solid none;
 	border-radius: 50%;
-	background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+	background: hsl(241, 81%, 54%);
 	height: 130px;
 	width: 130px;
 	font-family: 'Hanken Grotesk', sans-serif;
