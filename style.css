@@ -1,0 +1,351 @@
+.Summary{
+	border: 1px solid none;
+	height: 325px;
+	width: 250px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background: white;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	font-size: 15px;
+	font-family: 'Hanken Grotesk', sans-serif;
+	padding-top: 10px;
+	text-align: left;
+	background: rgb(255, 254, 250);
+	box-shadow: 10px 10px 10px hsla(234, 85%, 45%,0.1);
+
+}
+.Reaction{
+	border: 1px solid none;
+	height: 35px;
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+	background: hsl(0, 100%, 67%,0.1);
+	display: flex;
+	flex-direction: row;
+	border-radius: 5px;
+    text-align: center;
+    align-items: center;
+  	margin-left: 25px;
+
+}
+.Memory{
+	height: 35px;
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+	background: hsla(39, 100%, 56%,0.1);
+	border: 1px solid none;
+	display: flex;
+	flex-direction: row;
+	margin-left: 25px;
+	margin-top: 15px;
+	border-radius: 5px;
+	align-items: center;
+
+}
+.Verbal{
+	height: 35px;
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+	background: hsla(166, 100%, 37%,0.1);
+	border: 1px solid none;
+	display: flex;
+	flex-direction: row;
+	margin-left: 25px;
+	margin-top: 15px;
+	border-radius: 5px;
+	align-items: center;
+	
+}
+.Visual{
+	height: 35px;
+	width: 200px;
+	font-size: 12px;
+	font-weight: bold;
+	background: hsla(234, 85%, 45%,0.1);
+	lighting-color: 50%;
+	border: 1px solid none;
+	display: flex;
+	flex-direction: row;
+	margin-left: 25px;
+	margin-top: 15px;
+	border-radius: 5px;
+	align-items: center;
+}
+.Continue{
+	height: 40px;
+	width: 200px;
+	border: 1px solid none;
+	background: hsl(224, 30%, 27%);
+	color: white;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 25px;
+	margin-top: 25px;
+	justify-content: center;
+	align-items: center;
+
+}
+#image-1{
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+}
+#image-2{
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+}
+#image-3{
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+}
+#image-4{
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+}
+
+
+.result{
+	border: 1px solid none;
+	height: 325px;
+	width: 250px;
+	border-radius: 20px;
+	align-content: center;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	color: hsl(241, 100%, 89%);
+	font-size: 15px;
+	font-family: 'Hanken Grotesk', sans-serif;
+	padding-top: 10px;
+
+}
+.complete{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.circle{
+	border: 1px solid none;
+	border-radius: 50%;
+	background: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+	height: 130px;
+	width: 130px;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-weight: bold;
+	display: flex;
+    justify-content: center;
+    text-align: center;
+	align-items: center;
+	align-content: center;
+    margin: auto;
+
+}
+.content{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin-top: -20px;
+}
+
+
+.para-0{
+	font-size: 50px;
+	color: hsl(0, 0%, 100%);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.para-1{
+	font-size: 10px;
+	color: hsl(241, 100%, 89%);
+	text-align: center;
+	margin-top: -62px;
+
+}
+.para-2{
+	color: hsl(0, 0%, 100%);
+	font-size: 18px;
+	margin-top: 20px;
+
+}
+.pa{
+	font-size: 10px;
+	margin-left: 55px;
+	margin-right: 55px;
+	margin-top: -5px;
+
+
+}
+
+
+
+body{
+	margin-top: 100px;
+	margin-left: 381px;
+	margin-right: 381px;
+}
+
+
+
+
+
+
+/*title{
+	color: rgb(12,56,90);
+}
+h2:hover{
+	color: red;
+}
+.subtitle{
+	color: rgb(45,90,155);
+}
+#contact{
+	color: green;
+}
+
+#google-link:link{
+	color: blue;
+	text-decoration: overline;
+}
+
+#google-link:visited{
+	color: red;
+
+
+
+
+
+Primary Font: Lato
+Secondary Font: Roboto Condensed
+
+Dark Blue - rgb(70, 137, 244)
+Light Blue - rgb(186, 212, 255)
+
+'Bold' Orange - rgb(229, 158, 66)
+Light Orange - rgb(255, 227, 191)
+
+
+.content {
+	animation-name: fade-in;
+	animation-duration: 2s;	
+}
+
+.sidebar {
+	animation-name: fade-in;
+	animation-duration: 2s;
+}
+
+img {
+	width: 400px;
+	height: 200px;
+	transition: 0.5s all;
+}
+
+img:hover {
+	height: 250px;
+	width: 500px;
+}
+
+body {
+	background: rgba(186, 212, 255, 0.5);
+}
+#main {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-gap: 50px;
+	width: 100%;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+
+li {
+	font-family: 'Lato', sans-serif;
+}
+
+a {
+	font-family: 'Lato', sans-serif;
+}
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sidebar {
+	background: rgb(255, 227, 191);
+}
+.subtitle {
+
+} 
+
+.image-grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.image-grid > img {
+	margin: 10px;
+}
+
+#image-1 {
+	float: right;
+	margin: 15px;
+	height: 300px;
+}
+
+.post {
+	border: 2px solid rgb(229, 158, 66);
+	margin: 10px;
+}
+
+.post-title {
+	margin-left: 5px;
+}
+
+.post-text {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.post > a {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: rgb(70, 137, 244);
+	transition: 0.5s color;
+}
+
+.post > a:hover {
+	color: rgb(186, 212, 255);
+}
+
+@keyframes fade-in {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+*/
